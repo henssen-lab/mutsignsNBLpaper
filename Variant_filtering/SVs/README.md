@@ -1,6 +1,6 @@
 # Commands to filter, merge, and format SVs in the discovery cohort (Peifer+Berlin)
 
-Collapse SVs (>50bp) from different callers (Svaba, Delly and Novobreak)
+Collapse SVs (>50bp) from different callers (Svaba, Delly and Novobreak)\n
 Filter them at least 2 callers except insertions
 Including SVs from indels from Svaba and insertions PASS from delly2
 
