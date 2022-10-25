@@ -1,9 +1,6 @@
-### Take SNVs from Mutect2 PASS (no collapse, we take all the SNVs) - results from CUBI
-### REF/ALT alleles for cis-X and plots
+# Commands to filter and format SNVs in the discovery cohort (Peifer+Berlin)
 
-### SNVs ###
-
-# SNVs Peifer
+### SNVs Peifer
 for i in `ls /fast/users/rodrigue_c/work/neuroblastoma_variant_calling_results_elias/results_Peifer_cohort_VC | grep -P "NB"`; do echo "python /fast/users/rodrigue_c/work/landscape_NBL_project/wgs_analysis/script_SNVs_mutect2_6.0_nofiltering_NEW.py /fast/users/rodrigue_c/work/neuroblastoma_variant_calling_results_elias/results_Peifer_cohort_VC/"$i"/mutect2/bwa.mutect2."$i"-T1-DNA1-WGS1.full.vcf.gz "$i; done | sh
 
 # Format + filter PASS
