@@ -1,4 +1,4 @@
-# Commands to filter and format INDELs in the discovery cohort from Mutect
+# Commands to filter and format INDEL calls from Mutect in the discovery cohort
 
 ### Get the INDELs per patient
 python script_INDELS_mutect2_7.0_nofiltering_newstrandinfo_NEW.py bwa.mutect2.tumorsample.vcf.gz sampleID
