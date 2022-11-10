@@ -1,9 +1,9 @@
-# Commands to filter and format INDELs in the discovery cohort (Peifer+Berlin)
+# Commands to filter and format INDELs in the discovery cohort from Mutect
 
-### Get the INDELs from discovery cohort per patient - Mutect calling
+### Get the INDELs per patient
 python script_INDELS_mutect2_7.0_nofiltering_newstrandinfo_NEW.py bwa.mutect2.tumorsample.vcf.gz sampleID
 
-### Format and filter PASS INDELs from discovery cohort per patient
+### Format and filter PASS per patient
 python script_indels_format_4.0.py INDELS_mutect_indels_patient_sampleID_nofilters_newinfostrands.txt sampleID
 
 ### Generate sorted final file for ALL patients
