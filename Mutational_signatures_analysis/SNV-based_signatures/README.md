@@ -7,6 +7,7 @@
 #### 3. Compare de-novo signatures with COSMIC signatures, get exposures COSMIC signatures
 ###### Rscript script_SIGNATUREANALYSIS_3rdpart_getCOSMICsignatures_EXPOSURE_ABS+FREQ_ALLSNVS.R
 #### 4. Plot exposure per patient and per risk group
-###### Rscript script_SIGNATUREANALYSIS_4thpart_PLOTexposure_perpatient+perriskgroup.R\
+###### Rscript script_SIGNATUREANALYSIS_4thpart_PLOTexposure_perpatient+perriskgroup.R
+\
 #### Evaluate number of de-novo signatures (k)
 ###### Rscript script_keval.R
