@@ -2,7 +2,7 @@
 
 ### Oncoplot
 
-#### Generate inputs
+###### Generate inputs
 Rscript script_generate_oncoprint_inputs_from_intersect_genesandchromosomearms_allmuttypes_newt11-17_newchrarms_6.0.R
 #### Plot
 Rscript script_plot_ONCOPRINT_NBLessentialgenes+chrarms_ALLmuts_ALL_PATIENTS_frominputsoncoprint_allpatientsinplot_HISTOGRAMSMUTATIONS_newt11-17_newchrarms_8.0.R
