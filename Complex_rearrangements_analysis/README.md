@@ -17,10 +17,15 @@
 > ###### Rscript script_plot_HISTOGRAM_distribution_complexrearrangements_JABBA+AA+MC_allpatients_perRISKGROUPS_allruns_v2.R JABBArun AArun
 > ###### Rscript script_plot_VIOLINPLOTS_distribution_complexrearrangements_JABBA+AA+MC_allpatients_compareRISKGROUPS_perCRtype_allruns.R JABBArun AArun
 > ###### Rscript script_plot_PIECHART_distribution_complexrearrangements_WHOLECOHORT_allruns.R JABBArun AArun
-#### 4. Plot exposure per patient and per risk group
-> ###### Rscript script_SIGNATUREANALYSIS_4thpart_PLOTexposure_perpatient+perriskgroup.R<br/>
-<br/>
-
-#### Evaluate number of de-novo signatures (k)
-> ###### Rscript script_keval.R
-
+#### 4. Analysis of SVs involved in complex rearrangements
+> ###### BASH_script_part4_commands_run_JABBAresults_SVS_in_complexrearrangements+PLOTS+generaltableALLregionsinCR.sh JABBArun AArun
+> ###### Rscript script_INTERSECT_getinfo_SVSinvolvedinCOMPLXREARRANG+generaltableregionsCR.R JABBArun AArun
+> ###### Rscript script_INTERSECT_getinfo_SVSinvolvedinCOMPLXREARRANG_perCRtype_WHOLECOHORT.R JABBArun AArun
+##### Plots
+> ###### Rscript script_plot_HISTOGRAM+BOXPLOTS_SVsinvolvedinCMPLXREARRANG_perpatient_perCRtype_perriskgroups_v2.R JABBArun AArun
+> ###### Rscript script_plot_GENOMEPLOT_allCRtypes_CRdistributioninthegenome.R JABBArun AArun
+> ###### Rscript script_plot_HISTOGRAM_frequency_CR_inchromosomes.R JABBArun AArun
+#### 5. Analysis of genes affected by complex rearrangements
+> ###### BASH_script_part5_commands_run_JABBAresults_GENESaffectedbyCMPLXREARRANG+CIRCOSinputs.sh JABBArun AArun
+##### Plots
+> ###### Rscript script_plot_multipleHISTOGRAM_freqCRaffectingGENES_allCRtypes_v3.0_NEW.R $Jrun $AArun 
