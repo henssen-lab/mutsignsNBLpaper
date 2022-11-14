@@ -1,7 +1,7 @@
 # SNV-based mutational signatures analysis
 
 #### 1. Generate tri-nucleotide context from SNS calling
-###### Rscript script_SIGNATUREANALYSIS_1stpart_generateTRInucleotidecontext_ALLSNVS.R
+> ###### Rscript script_SIGNATUREANALYSIS_1stpart_generateTRInucleotidecontext_ALLSNVS.R
 #### 2. Extract de-novo signatures
 ###### Rscript script_SIGNATUREANALYSIS_2ndpart_extractdenovoSIGNATURES_ALLSNVS_v4signs.R
 #### 3. Compare de-novo signatures with COSMIC signatures, get exposures COSMIC signatures
