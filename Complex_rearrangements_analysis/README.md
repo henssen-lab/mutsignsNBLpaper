@@ -28,4 +28,9 @@
 #### 5. Analysis of genes affected by complex rearrangements
 > ###### BASH_script_part5_commands_run_JABBAresults_GENESaffectedbyCMPLXREARRANG+CIRCOSinputs.sh JABBArun AArun
 ##### Plots
-> ###### Rscript script_plot_multipleHISTOGRAM_freqCRaffectingGENES_allCRtypes_v3.0_NEW.R $Jrun $AArun 
+> ###### Rscript script_plot_multipleHISTOGRAM_freqCRaffectingGENES_allCRtypes_v3.0_NEW.R $Jrun $AArun<br/>
+<br/>
+
+#### Script to run shatterseek
+> ###### Rscript script_identify_chromothripsis_perpatient_shatterseek_ATLEAST2CALLERS.R
+ 
