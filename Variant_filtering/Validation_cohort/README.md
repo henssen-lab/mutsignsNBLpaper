@@ -1,4 +1,4 @@
-# Variant filtering for the mutational signatures analysis in the validation cohort
+# Variant filtering for the mutational signatures validation (validation cohort)
 
 #### Get the clonal variants for accurate validation/comparison between both cohorts
 > ###### python pindel_to_yapsa.py
