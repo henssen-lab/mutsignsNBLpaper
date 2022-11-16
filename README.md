@@ -3,7 +3,7 @@
 #### Scripts for filtering and formatting all variant types (include general plots, e.g. oncoplot)
 > ###### [Variant_filtering](https://github.com/henssen-lab/mutsignsNBLpaper/tree/main/Variant_filtering)
 
-#### Scripts for running mutational signatures analysis for all different variant types - including TrackSigFreq (include plots, e.g. correlation plots)
+#### Scripts for running mutational signatures analysis for all the different variant types + TrackSigFreq scripts (include plots, e.g. correlation plots)
 > ###### [Mutational_signatures_analysis](https://github.com/henssen-lab/mutsignsNBLpaper/tree/main/Mutational_signatures_analysis)
 
 #### Scripts for analyzing the different types of complex rearrangements (include plots, e.g. upset plot)
